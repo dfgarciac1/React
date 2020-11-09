@@ -1,0 +1,19 @@
+Hola yo son las 7:47 del 7 de noviembre 2020
+
+1)npm init -y ->Sirve para iniciar el package de la informacion del proyecto
+2)npm i express mongoose cors dotenv -> mete express y conecta a mongo
+3)mongoose es un ORM ->Biblioteca que permite modelar los datos y despues se guardan 
+darle propiedades o parecido a una tabla para dar un esquema
+4)cors -> me permite comunicar el front y el back 
+5)dotenv -> Variable de entorno para mantener conexiones privadas o no se quiere usar 
+6)npm i nodemon -D -> lo que me permite la -D es que en el package se separe esta 
+de las dependencias 
+7)nodemon -> Se reinicia el servidor si hay cambios (Refresca la pagina)
+8)El index.js es el archivo que inicia el servidor
+9)El app.js contiene codigos de los framework
+10)database va a servir como conector a la base de datos 
+11)controllers -> Sirve para las funciones que quiero en el servidor
+12)models -> Modelar los datos(definir los datos bajo un esquema)
+13)routes -> Url del servidor
+14)npx nodemon node index.js -> Esto me permite por medio de 
+nodemon cambios en tiempo real si se hace una correccion al codigos

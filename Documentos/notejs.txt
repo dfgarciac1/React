@@ -1,0 +1,14 @@
+router.route('/').get((req,res)=>res.send('No soy panela')) 
+
+-> Esta cosa lo que permite por medio de express es que llame 
+a la ruta y consiga por medio de esa ruta lo que requiere 
+y envia una respuesta -> No soy panela 
+
+esta es obtenida en app.js
+
+-> app.use('/papas/users',require('./routes/users'));
+
+-> Peticiones .post ()-> Sirven para cuando se desea guardar un dato
+              .put()-> Cuando se desea actualizar un dato
+              .delate()->Eliminar datos
+              .patch()->actualizar un dato solamente dentro de algo una variable 

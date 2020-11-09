@@ -1,0 +1,5 @@
+componentDidMount = () => { -> Este metodo ayuda para ejecutar funciones una vez 
+                               este mismo esta montado
+        
+        fetch()  -> Me permite hacer peticiones             
+    }

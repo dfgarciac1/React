@@ -1,0 +1,14 @@
+Temas React -> 8 novimbre 
+
+rcc-> Crea un componente de react -> componente
+import Navigation from './components/Navigation' 
+----------------------
+React se basa en los componentes para permitir esto 
+se puede haciendo importando el componente 
+y pongo lo que llame al lado del import
+---------------------------------------------------
+npm install react-router-dom
+Esto me sirve para BrowserRouter  
+->URL de las aplicaciones Contenedor 
+Route -> Especificar esas rutas  
+-----------------

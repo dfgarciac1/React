@@ -1,0 +1,27 @@
+Para importar en JS
+-> const  modulo = requiere('modulo');
+  const app modulo(); -> Esto devuelve un objeto
+
+  module.exports=app; -> Sirve para exportar el modulo 
+  y lo reciba index.js 
+
+  Para recibirlo     
+    const app = require('./app');
+
+
+--------------------------------------
+¡Para hacer que el servidor se inicie en un puerto 
+    ->    app.listen(4000, () =>console.log("Hola puto"));
+
+---------------------
+Manera moderna 
+    async function main(){ -> async metodo para que sea asincronico
+    await app.listen(4000);-> Espera a que inicie el servidor
+    console.log("Hola puto")-> Una vez ejecuta lo de arriba tira el mensaje 
+
+    }
+    main();
+
+--------
+
+npm install axios -> Sirve como una libreria para pedir peticiones 

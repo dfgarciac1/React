@@ -1,0 +1,21 @@
+const  express = require('express'); -> Llamo a lo que necesito previamente instalado
+const cors=require('cors')
+const app=express();
+//settings 
+app.set('port',4000); -> Esto se hace para tener una variable
+global y poder reusarla 
+
+//middlewares -> Funciones que se ejecutan antes de que llegen a una ruta (URL)
+
+-> Vamos a usar Cors' Servidores conectarlos '
+app.use(cors()); -> Dar y recibir 
+app.use(express.json()); -> Para poder que este enviando Json 
+//routes
+app.get('/users',(req,res) => res.send('Users Panela')); 
+-> Esta cosa me envia datos cuando llega a una direccion
+app.get('/notes',(req,res) => res.send('Viva la Panela'));
+module.exports=app;
+
+
+
+

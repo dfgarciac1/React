@@ -1,0 +1,8 @@
+const mongoose= require("mongoose"); -> Llamo a mongoose
+const URI='mongodb://localhost/mernstack'; -> Direccion cualquiera
+mongoose.connect(URI,{
+  useNewUrlParser: true, useUnifiedTopology: true});-> Parametros 
+const connection= mongoose.connection; -> Conecta
+connection.once('open',() => { -> Miro si sirve 
+     console.log("La base de datos funciona");
+});
