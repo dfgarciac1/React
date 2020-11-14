@@ -1,5 +1,5 @@
 const mongoose= require("mongoose");
-const URI='mongodb://localhost/mernstack';
+const URI='mongodb://172.18.0.1/mernstack';
 
 mongoose.connect(URI,
   {
